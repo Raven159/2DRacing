@@ -64,10 +64,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Background.cs" />
     <Compile Include="Assets\Scripts\BaseController.cs" />
+    <Compile Include="Assets\Scripts\BaseInputView.cs" />
     <Compile Include="Assets\Scripts\Car.cs" />
+    <Compile Include="Assets\Scripts\GameState.cs" />
     <Compile Include="Assets\Scripts\IReadOnSubscriptionProperty.cs" />
     <Compile Include="Assets\Scripts\IReadOnlySubscriptionAction.cs" />
+    <Compile Include="Assets\Scripts\InputAcceleration.cs" />
+    <Compile Include="Assets\Scripts\InputGameController.cs" />
     <Compile Include="Assets\Scripts\MainMenuController.cs" />
     <Compile Include="Assets\Scripts\MainMenuView.cs" />
     <Compile Include="Assets\Scripts\ProfilePlayer.cs" />
