@@ -9,7 +9,7 @@ namespace Game.ImputLogic
         private SubscriptionProperty<float> _leftMove;
         private SubscriptionProperty<float> _rightMove;
 
-        public void Init(SubscriptionProperty<float> leftMove, SubscriptionProperty<float> rightMove, float speed)
+        public virtual void Init(SubscriptionProperty<float> leftMove, SubscriptionProperty<float> rightMove, float speed)
         {
             _leftMove = leftMove;
             _rightMove = rightMove;
