@@ -1,6 +1,11 @@
 ﻿namespace Profile
 {
-    internal class GameState
+    public enum GameState
     {
+        None,
+        Start,
+        Game
     }
 }
+
+
