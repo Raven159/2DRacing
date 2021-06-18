@@ -82,8 +82,11 @@
     <Compile Include="Assets\Scripts\FloatInputJoystick.cs" />
     <Compile Include="Assets\Scripts\GameState.cs" />
     <Compile Include="Assets\Scripts\GyroscopeInputView.cs" />
+    <Compile Include="Assets\Scripts\IAdsShower.cs" />
+    <Compile Include="Assets\Scripts\IAnaliticTools.cs" />
     <Compile Include="Assets\Scripts\IReadOnSubscriptionProperty.cs" />
     <Compile Include="Assets\Scripts\IReadOnlySubscriptionAction.cs" />
+    <Compile Include="Assets\Scripts\IShop.cs" />
     <Compile Include="Assets\Scripts\InputAcceleration.cs" />
     <Compile Include="Assets\Scripts\InputGameController.cs" />
     <Compile Include="Assets\Scripts\InputJoysticView.cs" />
@@ -92,8 +95,12 @@
     <Compile Include="Assets\Scripts\ProfilePlayer.cs" />
     <Compile Include="Assets\Scripts\ResourceLoader.cs" />
     <Compile Include="Assets\Scripts\ResourcePath.cs" />
+    <Compile Include="Assets\Scripts\ShopProduct.cs" />
+    <Compile Include="Assets\Scripts\ShopTools.cs" />
     <Compile Include="Assets\Scripts\SubscriptionAction.cs" />
     <Compile Include="Assets\Scripts\SubscriptionProperty.cs" />
+    <Compile Include="Assets\Scripts\UnityAdsTools.cs" />
+    <Compile Include="Assets\Scripts\UnityAnaliticTools.cs" />
     <Compile Include="Assets\UpdateManager\Example Scene\Scripts\Cloner.cs" />
     <Compile Include="Assets\UpdateManager\Example Scene\Scripts\Counter.cs" />
     <Compile Include="Assets\UpdateManager\Example Scene\Scripts\ExampleEventUpdate.cs" />
@@ -641,8 +648,17 @@
     <Reference Include="Boo.Lang">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.XR.Management">
+      <HintPath>C:/Users/Raven/Documents/Projects/2DRacing/2DRacing/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/Raven/Documents/Projects/2DRacing/2DRacing/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Monetization">
+      <HintPath>C:/Users/Raven/Documents/Projects/2DRacing/2DRacing/Library/ScriptAssemblies/UnityEngine.Monetization.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Subsystem.Registration">
+      <HintPath>C:/Users/Raven/Documents/Projects/2DRacing/2DRacing/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Runtime">
       <HintPath>C:/Users/Raven/Documents/Projects/2DRacing/2DRacing/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
@@ -653,8 +669,20 @@
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>C:/Users/Raven/Documents/Projects/2DRacing/2DRacing/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.XR.ARSubsystems">
+      <HintPath>C:/Users/Raven/Documents/Projects/2DRacing/2DRacing/Library/ScriptAssemblies/Unity.XR.ARSubsystems.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.ARSubsystems.Editor">
+      <HintPath>C:/Users/Raven/Documents/Projects/2DRacing/2DRacing/Library/ScriptAssemblies/Unity.XR.ARSubsystems.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Advertisements">
+      <HintPath>C:/Users/Raven/Documents/Projects/2DRacing/2DRacing/Library/ScriptAssemblies/UnityEngine.Advertisements.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.2D.SpriteShape.Editor">
       <HintPath>C:/Users/Raven/Documents/Projects/2DRacing/2DRacing/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.InteractionSubsystems">
+      <HintPath>C:/Users/Raven/Documents/Projects/2DRacing/2DRacing/Library/ScriptAssemblies/Unity.XR.InteractionSubsystems.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/Raven/Documents/Projects/2DRacing/2DRacing/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -676,6 +704,12 @@
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>C:/Users/Raven/Documents/Projects/2DRacing/2DRacing/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XR.LegacyInputHelpers">
+      <HintPath>C:/Users/Raven/Documents/Projects/2DRacing/2DRacing/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.Management.Editor">
+      <HintPath>C:/Users/Raven/Documents/Projects/2DRacing/2DRacing/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>C:/Users/Raven/Documents/Projects/2DRacing/2DRacing/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
@@ -707,20 +741,41 @@
     <Reference Include="Unity.2D.Animation.Editor">
       <HintPath>C:/Users/Raven/Documents/Projects/2DRacing/2DRacing/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.SpatialTracking">
+      <HintPath>C:/Users/Raven/Documents/Projects/2DRacing/2DRacing/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+      <HintPath>C:/Users/Raven/Documents/Projects/2DRacing/2DRacing/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Mathematics.Editor">
       <HintPath>C:/Users/Raven/Documents/Projects/2DRacing/2DRacing/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.WindowsMixedReality.Editor">
+      <HintPath>C:/Users/Raven/Documents/Projects/2DRacing/2DRacing/Library/ScriptAssemblies/Unity.XR.WindowsMixedReality.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>C:/Users/Raven/Documents/Projects/2DRacing/2DRacing/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.XR.WindowsMixedReality">
+      <HintPath>C:/Users/Raven/Documents/Projects/2DRacing/2DRacing/Library/ScriptAssemblies/Unity.XR.WindowsMixedReality.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.2D.Common.Editor">
       <HintPath>C:/Users/Raven/Documents/Projects/2DRacing/2DRacing/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.XR.LegacyInputHelpers">
+      <HintPath>C:/Users/Raven/Documents/Projects/2DRacing/2DRacing/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEditorBridge.001">
       <HintPath>C:/Users/Raven/Documents/Projects/2DRacing/2DRacing/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>C:/Users/Raven/Documents/Projects/2DRacing/2DRacing/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing">
+      <HintPath>C:/Users/Raven/Documents/Projects/2DRacing/2DRacing/Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Purchasing">
+      <HintPath>C:/Users/Raven/Documents/Projects/2DRacing/2DRacing/Library/ScriptAssemblies/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup></ItemGroup>

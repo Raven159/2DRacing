@@ -638,8 +638,17 @@
     <Reference Include="UnityEngine.TestRunner">
       <HintPath>C:/Users/Raven/Documents/Projects/2DRacing/2DRacing/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.XR.Management">
+      <HintPath>C:/Users/Raven/Documents/Projects/2DRacing/2DRacing/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/Raven/Documents/Projects/2DRacing/2DRacing/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Monetization">
+      <HintPath>C:/Users/Raven/Documents/Projects/2DRacing/2DRacing/Library/ScriptAssemblies/UnityEngine.Monetization.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Subsystem.Registration">
+      <HintPath>C:/Users/Raven/Documents/Projects/2DRacing/2DRacing/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Runtime">
       <HintPath>C:/Users/Raven/Documents/Projects/2DRacing/2DRacing/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
@@ -650,8 +659,20 @@
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>C:/Users/Raven/Documents/Projects/2DRacing/2DRacing/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.XR.ARSubsystems">
+      <HintPath>C:/Users/Raven/Documents/Projects/2DRacing/2DRacing/Library/ScriptAssemblies/Unity.XR.ARSubsystems.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.ARSubsystems.Editor">
+      <HintPath>C:/Users/Raven/Documents/Projects/2DRacing/2DRacing/Library/ScriptAssemblies/Unity.XR.ARSubsystems.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Advertisements">
+      <HintPath>C:/Users/Raven/Documents/Projects/2DRacing/2DRacing/Library/ScriptAssemblies/UnityEngine.Advertisements.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.2D.SpriteShape.Editor">
       <HintPath>C:/Users/Raven/Documents/Projects/2DRacing/2DRacing/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.InteractionSubsystems">
+      <HintPath>C:/Users/Raven/Documents/Projects/2DRacing/2DRacing/Library/ScriptAssemblies/Unity.XR.InteractionSubsystems.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/Raven/Documents/Projects/2DRacing/2DRacing/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -673,6 +694,12 @@
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>C:/Users/Raven/Documents/Projects/2DRacing/2DRacing/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XR.LegacyInputHelpers">
+      <HintPath>C:/Users/Raven/Documents/Projects/2DRacing/2DRacing/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.Management.Editor">
+      <HintPath>C:/Users/Raven/Documents/Projects/2DRacing/2DRacing/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>C:/Users/Raven/Documents/Projects/2DRacing/2DRacing/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
@@ -704,14 +731,29 @@
     <Reference Include="Unity.2D.Animation.Editor">
       <HintPath>C:/Users/Raven/Documents/Projects/2DRacing/2DRacing/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.SpatialTracking">
+      <HintPath>C:/Users/Raven/Documents/Projects/2DRacing/2DRacing/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+      <HintPath>C:/Users/Raven/Documents/Projects/2DRacing/2DRacing/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Mathematics.Editor">
       <HintPath>C:/Users/Raven/Documents/Projects/2DRacing/2DRacing/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.WindowsMixedReality.Editor">
+      <HintPath>C:/Users/Raven/Documents/Projects/2DRacing/2DRacing/Library/ScriptAssemblies/Unity.XR.WindowsMixedReality.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>C:/Users/Raven/Documents/Projects/2DRacing/2DRacing/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.XR.WindowsMixedReality">
+      <HintPath>C:/Users/Raven/Documents/Projects/2DRacing/2DRacing/Library/ScriptAssemblies/Unity.XR.WindowsMixedReality.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.2D.Common.Editor">
       <HintPath>C:/Users/Raven/Documents/Projects/2DRacing/2DRacing/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.XR.LegacyInputHelpers">
+      <HintPath>C:/Users/Raven/Documents/Projects/2DRacing/2DRacing/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEditorBridge.001">
       <HintPath>C:/Users/Raven/Documents/Projects/2DRacing/2DRacing/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
@@ -719,11 +761,21 @@
     <Reference Include="UnityEditor.UI">
       <HintPath>C:/Users/Raven/Documents/Projects/2DRacing/2DRacing/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.Purchasing">
+      <HintPath>C:/Users/Raven/Documents/Projects/2DRacing/2DRacing/Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Purchasing">
+      <HintPath>C:/Users/Raven/Documents/Projects/2DRacing/2DRacing/Library/ScriptAssemblies/UnityEditor.Purchasing.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{3850D512-2447-59A8-1214-440818EF17E6}</Project>
       <Name>Assembly-CSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj">
+      <Project>{F97DD23B-9658-EF9E-48A6-DA36220F3E07}</Project>
+      <Name>Assembly-CSharp-Editor-firstpass</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
