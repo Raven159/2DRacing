@@ -83,13 +83,17 @@
     <Compile Include="Assets\Scripts\GyroscopeInputView.cs" />
     <Compile Include="Assets\Scripts\IAdsShower.cs" />
     <Compile Include="Assets\Scripts\IAnaliticTools.cs" />
+    <Compile Include="Assets\Scripts\IItem.cs" />
+    <Compile Include="Assets\Scripts\IItemRepository.cs" />
     <Compile Include="Assets\Scripts\IReadOnSubscriptionProperty.cs" />
     <Compile Include="Assets\Scripts\IReadOnlySubscriptionAction.cs" />
     <Compile Include="Assets\Scripts\IShop.cs" />
     <Compile Include="Assets\Scripts\InputAcceleration.cs" />
     <Compile Include="Assets\Scripts\InputGameController.cs" />
     <Compile Include="Assets\Scripts\InputJoysticView.cs" />
+    <Compile Include="Assets\Scripts\Item.cs" />
     <Compile Include="Assets\Scripts\ItemConfig.cs" />
+    <Compile Include="Assets\Scripts\ItemsRepository.cs" />
     <Compile Include="Assets\Scripts\MainMenuController.cs" />
     <Compile Include="Assets\Scripts\MainMenuView.cs" />
     <Compile Include="Assets\Scripts\ProfilePlayer.cs" />
