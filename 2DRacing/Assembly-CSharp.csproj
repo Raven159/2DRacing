@@ -83,6 +83,9 @@
     <Compile Include="Assets\Scripts\GyroscopeInputView.cs" />
     <Compile Include="Assets\Scripts\IAdsShower.cs" />
     <Compile Include="Assets\Scripts\IAnaliticTools.cs" />
+    <Compile Include="Assets\Scripts\IInventoryController.cs" />
+    <Compile Include="Assets\Scripts\IInventoryModel.cs" />
+    <Compile Include="Assets\Scripts\IInventoryView.cs" />
     <Compile Include="Assets\Scripts\IItem.cs" />
     <Compile Include="Assets\Scripts\IItemRepository.cs" />
     <Compile Include="Assets\Scripts\IReadOnSubscriptionProperty.cs" />
@@ -91,6 +94,7 @@
     <Compile Include="Assets\Scripts\InputAcceleration.cs" />
     <Compile Include="Assets\Scripts\InputGameController.cs" />
     <Compile Include="Assets\Scripts\InputJoysticView.cs" />
+    <Compile Include="Assets\Scripts\InventoryModel.cs" />
     <Compile Include="Assets\Scripts\Item.cs" />
     <Compile Include="Assets\Scripts\ItemConfig.cs" />
     <Compile Include="Assets\Scripts\ItemsRepository.cs" />
@@ -106,6 +110,7 @@
     <Compile Include="Assets\Scripts\UnityAdsTools.cs" />
     <Compile Include="Assets\Scripts\UnityAnaliticTools.cs" />
     <Compile Include="Assets\Scripts\UpgradeItemConfig.cs" />
+    <Compile Include="Assets\Scripts\UpgradeItemConfigDataSource.cs" />
     <Compile Include="Assets\Scripts\UpgradeItemConfigSource.cs" />
     <Compile Include="Assets\UpdateManager\Example Scene\Scripts\Cloner.cs" />
     <Compile Include="Assets\UpdateManager\Example Scene\Scripts\Counter.cs" />
