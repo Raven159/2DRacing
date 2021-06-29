@@ -91,9 +91,12 @@
     <Compile Include="Assets\Scripts\IReadOnSubscriptionProperty.cs" />
     <Compile Include="Assets\Scripts\IReadOnlySubscriptionAction.cs" />
     <Compile Include="Assets\Scripts\IShop.cs" />
+    <Compile Include="Assets\Scripts\IUpgradeCarHandler.cs" />
+    <Compile Include="Assets\Scripts\IUpgradebleCar.cs" />
     <Compile Include="Assets\Scripts\InputAcceleration.cs" />
     <Compile Include="Assets\Scripts\InputGameController.cs" />
     <Compile Include="Assets\Scripts\InputJoysticView.cs" />
+    <Compile Include="Assets\Scripts\InventoryController.cs" />
     <Compile Include="Assets\Scripts\InventoryModel.cs" />
     <Compile Include="Assets\Scripts\Item.cs" />
     <Compile Include="Assets\Scripts\ItemConfig.cs" />
