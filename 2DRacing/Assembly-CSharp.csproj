@@ -90,6 +90,7 @@
     <Compile Include="Assets\Scripts\IItemRepository.cs" />
     <Compile Include="Assets\Scripts\IReadOnSubscriptionProperty.cs" />
     <Compile Include="Assets\Scripts\IReadOnlySubscriptionAction.cs" />
+    <Compile Include="Assets\Scripts\IShedController.cs" />
     <Compile Include="Assets\Scripts\IShop.cs" />
     <Compile Include="Assets\Scripts\IUpgradeCarHandler.cs" />
     <Compile Include="Assets\Scripts\IUpgradebleCar.cs" />
@@ -98,6 +99,7 @@
     <Compile Include="Assets\Scripts\InputJoysticView.cs" />
     <Compile Include="Assets\Scripts\InventoryController.cs" />
     <Compile Include="Assets\Scripts\InventoryModel.cs" />
+    <Compile Include="Assets\Scripts\InventoryView.cs" />
     <Compile Include="Assets\Scripts\Item.cs" />
     <Compile Include="Assets\Scripts\ItemConfig.cs" />
     <Compile Include="Assets\Scripts\ItemsRepository.cs" />
@@ -106,12 +108,16 @@
     <Compile Include="Assets\Scripts\ProfilePlayer.cs" />
     <Compile Include="Assets\Scripts\ResourceLoader.cs" />
     <Compile Include="Assets\Scripts\ResourcePath.cs" />
+    <Compile Include="Assets\Scripts\ShedController.cs" />
     <Compile Include="Assets\Scripts\ShopProduct.cs" />
     <Compile Include="Assets\Scripts\ShopTools.cs" />
+    <Compile Include="Assets\Scripts\SpeedUpdateCarHandler.cs" />
+    <Compile Include="Assets\Scripts\StubUpgradeCarHandler.cs" />
     <Compile Include="Assets\Scripts\SubscriptionAction.cs" />
     <Compile Include="Assets\Scripts\SubscriptionProperty.cs" />
     <Compile Include="Assets\Scripts\UnityAdsTools.cs" />
     <Compile Include="Assets\Scripts\UnityAnaliticTools.cs" />
+    <Compile Include="Assets\Scripts\UpgradeHandlersRepository.cs" />
     <Compile Include="Assets\Scripts\UpgradeItemConfig.cs" />
     <Compile Include="Assets\Scripts\UpgradeItemConfigDataSource.cs" />
     <Compile Include="Assets\Scripts\UpgradeItemConfigSource.cs" />
