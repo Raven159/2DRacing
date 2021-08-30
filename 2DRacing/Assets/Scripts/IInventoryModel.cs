@@ -1,8 +1,11 @@
 ﻿using System.Collections.Generic;
 
-public interface IInventoryModel
+namespace Company.Project.Features.Inventory
 {
-    IReadOnlyList<IItem> GetEquippedItems();
-    void EquipItem(IItem item);
-    void UnequipItem(IItem item);
+    public interface IInventoryModel
+    {
+        IReadOnlyList<IItem> GetEquippedItems();
+        void EquipItem(IItem item);
+        void UnequipItem(IItem item);
+    }
 }

@@ -1,7 +1,12 @@
 ﻿using System;
+using System.Collections.Generic;
 
-interface IInventoryController
+namespace Company.Project.Features.Inventory
 {
-    void ShowInventory(Action callback);
-    void HideInventory();
+    interface IInventoryController
+    {
+        IReadOnlyList<IItem> GetEquippedItems();
+        void ShowInventory(Action hideAction);
+        void HideInventory();
+    }
 }

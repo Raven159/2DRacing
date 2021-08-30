@@ -1,9 +1,13 @@
-﻿using System;
+﻿using Company.Project.UI;
+using System;
 using System.Collections.Generic;
 
-public interface IInventoryView
+namespace Company.Project.Features.Inventory
 {
-    event EventHandler<IItem> Selected;
-    event EventHandler<IItem> Deselected;
-    void Display(List<IItem> items);
+    public interface IInventoryView : IView
+    {
+        event EventHandler<IItem> Selected;
+        event EventHandler<IItem> Deselected;
+        void Display(List<IItem> itemInfoCollection);
+    }
 }

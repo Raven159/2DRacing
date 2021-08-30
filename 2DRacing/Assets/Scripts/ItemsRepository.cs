@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-public class ItemsRepository : BaseController, IItemRepository
+public class ItemsRepository : BaseController, IRepository
 {
     public IReadOnlyDictionary<int, IItem> Items => _itemsMapById;
     private Dictionary<int, IItem> _itemsMapById = new Dictionary<int, IItem>();
