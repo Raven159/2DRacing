@@ -1,5 +1,4 @@
-﻿using Company.Project.Features.Inventory;
-using JetBrains.Annotations;
+﻿using JetBrains.Annotations;
 using System;
 using System.Collections.Generic;
 
@@ -17,15 +16,18 @@ namespace Company.Project.Features.Inventory
         #endregion
 
         #region Life cycle
+
         public InventoryController(
-            [NotNull] IInventoryModel inventoryModel,
             [NotNull] IRepository<int, IItem> itemsRepository,
+            [NotNull] IInventoryModel inventoryModel,
             [NotNull] IInventoryView inventoryView)
         {
             _inventoryModel
                 = inventoryModel ?? throw new ArgumentNullException(nameof(inventoryModel));
+
             _itemsRepository
                 = itemsRepository ?? throw new ArgumentNullException(nameof(itemsRepository));
+
             _inventoryView
                 = inventoryView ?? throw new ArgumentNullException(nameof(inventoryView));
         }
@@ -45,17 +47,17 @@ namespace Company.Project.Features.Inventory
             return _inventoryModel.GetEquippedItems();
         }
 
-        public void HideInventory()
-        {
-            _inventoryView.Hide();
-            _hideAction?.Invoke();
-        }
-
         public void ShowInventory(Action hideAction)
         {
             _hideAction = hideAction;
             _inventoryView.Show();
             _inventoryView.Display(_itemsRepository.Colleection.Values.ToList());
+        }
+
+        public void HideInventory()
+        {
+            _inventoryView.Hide();
+            _hideAction?.Invoke();
         }
 
         #endregion
