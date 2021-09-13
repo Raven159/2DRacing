@@ -63,7 +63,8 @@ namespace Company.Project.Features.Abilities
 
         public void ShowAbilities()
         {
-            throw new NotImplementedException();
+            _abilityCollectionView.Show();
+            _abilityCollectionView.Display(_inventoryModel.GetEquippedItems());
         }
 
         #endregion
