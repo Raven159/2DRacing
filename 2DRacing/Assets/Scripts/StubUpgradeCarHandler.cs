@@ -1,9 +1,12 @@
-﻿public class StubUpgradeCarHandler : IUpgradeCarHandler
+﻿namespace Company.Project.Features.Shed
 {
-    public static readonly IUpgradeCarHandler Default = new StubUpgradeCarHandler(); 
-
-    public IUpgradebleCar Upgrade(IUpgradebleCar upgradebleCar)
+    public class StubUpgradeCarHandler : global::IUpgradeCarHandler
     {
-        return upgradebleCar;
+        public static readonly global::IUpgradeCarHandler Default = new StubUpgradeCarHandler();
+
+        public IUpgradebleCar Upgrade(IUpgradebleCar upgradebleCar)
+        {
+            return upgradebleCar;
+        }
     }
 }

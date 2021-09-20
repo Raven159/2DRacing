@@ -1,6 +1,7 @@
 ﻿using JetBrains.Annotations;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Company.Project.Features.Inventory
 {
@@ -51,7 +52,7 @@ namespace Company.Project.Features.Inventory
         {
             _hideAction = hideAction;
             _inventoryView.Show();
-            _inventoryView.Display(_itemsRepository.Colleection.Values.ToList());
+            _inventoryView.Display(_itemsRepository.Collection.Values.ToList());
         }
 
         public void HideInventory()

@@ -1,8 +1,10 @@
-﻿using System.Collections.Generic;
+﻿using Company.Project.Features;
+using System.Collections.Generic;
 
-public class ItemsRepository : BaseController, IRepository
+public class ItemsRepository : BaseController, IRepository<int, IItem>
 {
-    public IReadOnlyDictionary<int, IItem> Items => _itemsMapById;
+    public IReadOnlyDictionary<int, IItem> Collection => _itemsMapById;
+
     private Dictionary<int, IItem> _itemsMapById = new Dictionary<int, IItem>();
 
     #region Life cycle
